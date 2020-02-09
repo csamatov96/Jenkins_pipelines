@@ -14,7 +14,7 @@ node {
     }
 
     stage("Send Notification to Slack"){
-        slackSend channel: 'nagios_alerts', message: "=${TOOL_TO_PROVISION} has been built"
+        slackSend channel: 'nagios_alerts', message: "${TOOL_TO_PROVISION} has been built"
     }
 
     stage("Send Email"){
