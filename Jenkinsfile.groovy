@@ -25,7 +25,7 @@ node {
         cc: '', 
         from: '', 
         replyTo: '', 
-        subject: "${TOOL_TO_PROVISION}.json has been built", 
+        subject: "${TOOL_TO_PROVISION} has been built", 
         to: '996bkg@gmail.com'
         
     }
