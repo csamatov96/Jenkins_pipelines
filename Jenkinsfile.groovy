@@ -21,7 +21,7 @@ node {
     }
     stage("Send Email"){
         mail bcc: '', 
-        body: """Hello, Your AMI is ready in ${AMI_REGION} Thanks""", 
+        body: "Hello, Your AMI is ready in ${AMI_REGION} Thanks", 
         cc: '', 
         from: '', 
         replyTo: '', 
