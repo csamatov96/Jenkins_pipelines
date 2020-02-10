@@ -1,7 +1,7 @@
 node{
     stage("Pull Repo"){
         ws ("tmp/"){
-            git 'https://github.com/enver0173/terraform-iaac-eks-burak'
+            git 'https://github.com/csamatov96/terraform-iaac-eks-burak.git'
         }
         
     }
