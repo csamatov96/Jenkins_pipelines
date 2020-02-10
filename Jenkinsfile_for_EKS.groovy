@@ -4,6 +4,7 @@ node{
 
     }
     stage("stage1"){
+        sh "terraform version"
         
     }
     stage("stage1"){
