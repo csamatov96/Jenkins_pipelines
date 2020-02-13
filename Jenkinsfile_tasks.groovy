@@ -45,4 +45,5 @@ node {
     stage("Pushing to Artifactory"){
         sh "docker push ___918110389.dkr.ecr.us-east-1.amazonaws.com/task:${VERSION}"
     }
+    
 }
